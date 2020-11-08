@@ -162,6 +162,7 @@ class _LoginState extends State<LoginPage> {
         contentPadding: EdgeInsets.all(8),
         fillColor: Colors.white,
         filled: true,
+        hintText: "请输入帐号/手机号",
         prefixIcon: Icon(Icons.person_outline),
         suffixIcon: GestureDetector(
           onTap: () {
@@ -209,6 +210,7 @@ class _LoginState extends State<LoginPage> {
           border: OutlineInputBorder(borderSide: BorderSide()),
           fillColor: Colors.white,
           filled: true,
+          hintText: "请输入密码",
           prefixIcon: Icon(Icons.lock),
           contentPadding: EdgeInsets.all(8),
         ),
@@ -244,15 +246,18 @@ class _LoginState extends State<LoginPage> {
               return GestureDetector(
                 child: Container(
                   color: Colors.grey[200],
+                  padding: EdgeInsets.only(
+                    left: 8,
+                    top: 8,
+                    right: 8,
+                    bottom: 8,
+                  ),
                   child: Column(
                     children: [
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
-                          AirTextWidget.defaultStyle(
-                            data: "${user.username}",
-                            lineHeight: 1,
-                          ),
+                          Text("${user.username}"),
                           GestureDetector(
                             child: Padding(
                               padding: EdgeInsets.all(0),

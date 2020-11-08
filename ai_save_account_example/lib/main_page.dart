@@ -18,7 +18,7 @@ class _MainPageState extends State<MainPage> {
       body: Center(
         child: MaterialButton(
           onPressed: () {
-            Airoute.pushReplacementNamed(routeName: "/LoginPage");
+            Airoute.pushNamedAndRemoveUntil(newRouteName: "/LoginPage");
           },
           child: Text("去登录"),
         ),

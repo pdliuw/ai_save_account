@@ -65,3 +65,40 @@ $ flutter pub get
 import 'package:ai_save_account/ai_save_account.dart';
 
 ```
+
+## 2.使用
+
+get
+
+```
+
+    SaveAccountPasswordManager.getUsers()
+
+
+```
+
+save
+
+```
+
+    SaveAccountPasswordManager.saveUser(...)
+
+
+```
+
+delete
+
+```
+
+    SaveAccountPasswordManager.delUser(...)
+
+
+```
+
+
+## LICENSE
+
+    BSD 3-Clause License
+    
+    Copyright (c) 2020, pdliuw
+    All rights reserved.

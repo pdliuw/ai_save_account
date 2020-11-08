@@ -9,7 +9,7 @@
 
 |iOS-ai_save_account|Android-ai_save_account|
 |:-|:-|
-|![ios](https://github.com/pdliuw/ai_save_account/blob/master/example/gif/ai_save_account_ios.gif)|![android](https://github.com/pdliuw/ai_save_account/blob/master/example/gif/ai_save_account_android.gif)|
+|![ios](https://github.com/pdliuw/ai_save_account/blob/master/ai_save_account_example/gif/ai_save_account_ios.gif?raw=true)|![android](https://github.com/pdliuw/ai_save_account/blob/master/ai_save_account_example/gif/ai_save_account_android.gif?raw=true)|
 |:-|:-|
 
 
